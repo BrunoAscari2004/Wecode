@@ -74,7 +74,7 @@ body {
 
 /*main other*/
 .main-others{
-    min-height: 350px;
+    min-height: 300px;
     min-width: 390px;
     background-color: #191819;
     border-top: 3px solid black;
@@ -99,8 +99,8 @@ body {
 
 .main-others-carrosel img{
     object-fit: cover;
-    max-height: 200px;
-    min-width: 190px;
+    max-height: 170px;
+    min-width: 150px;
     padding: 0 10px;
     border-radius: 20px;
     
