@@ -89,13 +89,7 @@ body {
     box-sizing: border-box;
 }
 
-.main-others{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
 
-}
 
 .main-others-carrosel{
     overflow: auto;
@@ -122,9 +116,10 @@ body {
 /*main favortes*/
 
 .main-favorites{
-    height: 500px;
+    height: 650px;
     min-width: 370px;
     padding: 10px 0px 40px ;
+    
 }
 .main-favorites-text{
    
@@ -134,6 +129,8 @@ body {
     font-family:   'Lucida Sans';
     font-size: 14px;
     opacity: 0.9;
+    
+
 }
 
 .main-favorites-text p{ 
@@ -142,7 +139,73 @@ body {
     opacity: 0.8;
     font-size: 16px;
 }
+
+
+
+/*main favories carrousel*/
+.main-favorites-coffe{
+    margin-top: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.main-favorites-carrosel{
+    overflow: auto;
+    margin: 10px;
+
+}
+
+.main-favorites-carrosel img{
+    object-fit: cover;
+    max-height: 320px;
+    min-width: 290px;
+    padding: 0 10px;
+    border-radius: 20px;
+    
+}
+
+.main-favorites-carrosel-container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+
+.main-favorites-carrosel-item-text{
+    margin-left: 25px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family:     Arial;
+}
+
+
+
 /*\main favorites*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*main know more*/
 .main-knowmore{
     height: 570px;   
