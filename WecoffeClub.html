@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WeCode</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Wecoffee.css">
 </head>
 <body>
     <div id="root">
@@ -29,110 +30,20 @@
                 </div>
             </div>
         </header>
-        <div class = "main"> 
-            <div class ="main-coffe">
-                <picture>
-                    <source media="(max-width: 500px)" srcset="backgroundCafeGg.jpeg" class="main-coffe-background">
-                </picture>
-                <div class="main-coffe-coffe">
-                    <div class="main-coffe-carrosel">
-                        <div class="main-coffe-carrosel-container" id="img-carrosel">
-                            <picture>
-                                <source media="(max-width: 500px)" srcset="wecodeMainCoffePhone3.png">
-                                <img src="wecodeMainCoffe25.png" class="main-coffe-coffe-image">
-                            </picture>
-                            <picture>
-                                <source media="(max-width: 500px)" srcset="WECODEphone3.png">
-                                <img src="zWECODE3.png" class="main-coffe-coffe-image">
-                            </picture>
-                            
-                        </div>
+        <div class="main">
+            <div class="CoffeClub">
+                <div class="content">
+                    <div class="CoffeClubText">
+                        <p>Olá! Já pensou em ganhar descontos em compras nas lojas de café da Wecode, concorrer a prêmios e muito mais? Agora é possível! </p>
+                        <p id="CoffeClubTextHighlight">Plano Mensal Wecode, por apenas R$ 60,00.</p>
                     </div>
-                </div>
-            </div>
-            <div class="main-others">
-                <div class="main-others-carrosel">
-                    <div class="main-others-carrosel-container" id="img-others-carrosel">
-                        <div class="main-others-carrosel-item" >
-                            <img src="cafe-especial-final2.png" alt="Image 2" class="main-others-image">
-                            <p>Especiais</p>
+                    <div class="CoffeClubWidgets">
+                        <div class="CoffeEmail">
+                            <p>EMAIL: <input  name="Email" id="Email"></p>
                         </div>
-                        <div class="main-others-carrosel-item">
-                            <img src="cafe-especial-final.png" alt="Image 1"
-                            class="main-others-image">
-                            <p>Tradicionais</p>
-
-                        </div>
-                        <div class="main-others-carrosel-item">
-                            <img src="cafe-kit-final2.png" alt="" class="main-others-image">
-                            <p>Kits</p>
-
-                        </div>
-                        <div class="main-others-carrosel-item">
-                            <img src="cafe-club-final.png" alt="" class="main-others-image">
-                            <p style="color: rgb(75, 143, 221);">Wecoffee <br>
-                            Club+</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="main-favorites">
-                <div class="main-favorites-text">
-                        <h1>Os favoritos da casa</h1>
-                        <p>Conheça os cafés queridinhos da galera!</p>
-                </div>
-                <div class="main-favorites-coffe">
-                    <div class="main-favorites-carrosel">
-                        <div class="main-favorites-carrosel-container" id="img-favorites-carrosel">
-                            <div class="main-favorites-carrosel-item">
-                                <img src="CafeOriginTeste.png" alt="">
-                                <div class="main-favorites-carrosel-item-text">
-                                    <p>Café Dev - 500ml</p>
-                                    <p style="color: rgb(109, 109, 104)">Rapadura, papaia, cítrico</p>
-                                    <p style="font-weight: bold;">R$ 15,90</p>
-                                </div>
-                            </div>
-                            <div class="main-favorites-carrosel-item">
-                                <img src="CafeOriginTeste2.png" alt="">
-                                <div class="main-favorites-carrosel-item-text">
-                                    <p>Café Dev - 500ml</p>
-                                    <p style="color: rgb(109, 109, 104)">Doce de leite, Chocolate e nozes</p>
-                                    <p style="font-weight: bold;">R$ 15,90</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="main-knowmore">
-                <div class="main-knowmore-text">
-                    <h1>Conheça mais</h1>
-                    <p>Fique por dentro de tudo que acontece no universo cafeeiro</p>
-                </div>
-                <div class="main-knowmore-coffe">        
-                    <div class="main-knowmore-carrosel-container" id="img-knowmore-carrosel">
-                        <div class="main-knormore-carrosel-item">
-                            <img src="simplescafe2.jpeg" alt="">
-                            <p class="knowmore-titulo">Café corta o efeito da creatina? Entenda como tomar!</p>
-                            <p class="knowmore-texto">Uma dúvida recorrente das pessoas que treinam e/ou fazem musculação é: Será que o café corta o efeito da creatina?</p>
-                        </div>
-                        <div class="main-knormore-carrosel-item">
-                            <img src="simplespessoas.jpeg" alt="">
-                            <p class="knowmore-titulo">Cardápio de cafeteria: Saiba como montar e o que oferecer!</p>
-                            <p class="knowmore-texto">
-                                Abrir uma cafeteria é uma ótima oportunidade para aproveitar o alto potencial de lucratividade desse ramo.
-                            </p>
-                        </div>
-                        <div class="main-knormore-carrosel-item">
-                            <img src="simplespudim2.jpeg" alt="">
-                            <p class="knowmore-titulo">Como fazer pudim de café com ou sem forno: Aprenda aqui!</p>
-                            <p class="knowmore-texto">Além de ser o queridinho do brasileiro no dia a dia, o café é um ingrediente muito versátil para diversas receitas doces.</p>
-                        </div>
-                        <div class="main-knormore-carrosel-item">
-                            <img src="simplesarabica2.jpeg" alt="">
-                            <p class="knowmore-titulo">Café Arábica: saiba o que é e quais as diferenças do grão</p>
-                            <p class="knowmore-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae quidem unde voluptatem ipsa! .</p>
+                        <div class="Button">
+                            <input type="button" value="ENVIAR EMAIL"
+                            id="botao">
                         </div>
                     </div>
                 </div>
@@ -235,14 +146,14 @@
                             </ul>
                         </div>
                     </div>
-
-                    </div>
-                
+                </div>
             </div>
         </footer>
     </div>
-    <script src="script.js">
+    <script>
+        const email= document.getElementById('botao')
+        email.addEventListener("click",()=>alert("Email Enviado"))
+        email.addEventListener("mouseover",()=>(email.style.cursor="pointer"))
     </script>
-    <script src="scriptOthers.js"></script>
 </body>
 </html>

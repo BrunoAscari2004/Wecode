@@ -93,7 +93,8 @@ body {
 
 
 .main-others-carrosel{
-    overflow: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
     margin: 10px;
 
 }
@@ -103,8 +104,16 @@ body {
     object-fit: cover;
     max-height: 200px;
     min-width: 160px;
-    padding: 0 10px;
     border-radius: 20px;
+    
+    
+    
+}
+
+.main-others-carrosel-item{
+    margin-right: 10px;
+    height: 300px;
+    margin-bottom: 10px;
     
 }
 
@@ -299,13 +308,15 @@ body {
 .menu{
     flex:1;
     margin-left: 25px;
+    max-width: 50px;
     
 }
+
 
 .search{
     flex:1;
     margin-left: 15px;
-
+    max-width: 50px;
 }
 
 .company-name {
@@ -316,11 +327,13 @@ body {
 .account{
     flex:1;
     margin-right: 15px;
+    max-width: 50px;
 }
 
 .shopping{
     margin-right:35px;
     flex:1;
+    max-width: 50px;
 }
 
 /* </header>*/

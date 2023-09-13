@@ -1,0 +1,50 @@
+.CoffeClub{
+    height: 500px;
+}
+
+.content{
+    align-items: center;
+    text-align: center;
+
+}
+
+.CoffeClubText{
+    font-family:   'Lucida Sans';
+    font-size: 20px;
+    padding: 0 15px
+}
+
+#CoffeClubTextHighlight{
+    font-size: 25px;
+    background-color: #053766;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+#Email{
+    margin-top: 60px;
+    font-size: 20px;
+    background-color: #053766;
+    border-radius: 10px;
+    color: white;
+    border: 5px solid black;
+    margin-left: 10px;
+    padding: 10px 10px;
+    width: 500px;
+
+}
+.CoffeEmail{
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+#botao{
+    margin-top: 30px;
+    width: 500px;
+    font-size: 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px 10px;
+}

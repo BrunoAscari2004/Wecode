@@ -1,15 +1,13 @@
-const imgs= document.getElementById("img-othesrs-carrosel")
-const img = document.querySelectorAll("#img-carrosel  img")
+const menu =document.getElementById('menubotao')
+menu.addEventListener("click",showmenu)
+menu.addEventListener("mouseover",()=> menu.style.cursor ="pointer");
+menu.addEventListener("mouseout",()=>menu.style.cursor = "default")
 
-let idx=0;
-
-function carrosel(){
-    idx++;
-    if(idx>1){
-        idx=0;
-    }
-
-    imgs.style.transform = `translateX(${-idx * 400}px)`;
-}
-
-setInterval(carrosel,1500);
+function showmenu(){
+    menu.style.border = '2px solid black'; 
+    menu.style.borderRadius='5px'
+    setTimeout(function () {
+      menu.style.border = ''; 
+      menu.style.borderRadius='';
+    }, 100); 
+  }
