@@ -1,6 +1,7 @@
 let imagem = document.getElementsByClassName('image-button')
 let counter = document.getElementById("counter")
 let itemadicionado = document.getElementById("itemadicionado")
+
 for (let i = 0; i < imagem.length; i++) {
     (function (index) {
         imagem[index].addEventListener("click", () => atualizar());
