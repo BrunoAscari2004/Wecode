@@ -1,0 +1,5 @@
+let account = document.getElementById("account")
+
+account.addEventListener("mouseover",()=> account.style.cursor ="pointer");
+account.addEventListener("mouseout",()=>account.style.cursor = "default")
+account.addEventListener("click",()=> window.open('account.html', '_blank'))

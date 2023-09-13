@@ -1,0 +1,48 @@
+.main{
+    height: 1000px;
+    
+    align-items: center;
+    text-align: center;
+}
+
+.main-image{
+}
+/* Styling for the .imagem-account class */
+.imagem-account {
+    margin-top: 100px;
+    height: 250px;
+}
+
+/* Additional styling for the SVG if needed */
+.imagem-account svg {
+    border: 10px solid #053766;
+    border-radius: 1000px;
+}
+
+.data-container{
+    margin-top: 30px;
+}
+
+.inputs{
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #053766;
+    border-radius: 10px;
+    color: white;
+    border: 5px solid black;
+    padding: 10px 10px;
+    min-width: 300px;
+}
+
+.inputs::placeholder {
+    text-align: center;
+}
+
+#accountbotao{
+    margin-top: 60px;
+    width: 300px;
+    font-size: 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px 10px;
+}

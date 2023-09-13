@@ -1,0 +1,13 @@
+let botao = document.getElementById("accountbotao")
+let inputs= document.getElementsByClassName('inputs')
+
+botao.addEventListener("click",()=>salvar())
+botao.addEventListener("mouseover",()=>botao.style.cursor="pointer")
+
+
+function salvar(){
+    for(let i=0;i<inputs.length;i++){
+        inputs[i].value=""
+    }
+    alert("Perfil Atualizado")
+}

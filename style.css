@@ -349,7 +349,7 @@ body {
     color: black;
 }
 
-.account{
+#account{
     flex:1;
     margin-right: 15px;
 }
