@@ -127,7 +127,7 @@ body {
 /*main favortes*/
 
 .main-favorites{
-    height: 650px;
+    height: 670px;
     min-width: 370px;
     padding: 10px 0px 40px ;
     
@@ -186,6 +186,26 @@ body {
 }
 
 
+.main-favoites-image-container{
+    position: relative;
+
+}
+
+.image-button {
+    position: absolute;
+    bottom: 20px; 
+    right: 30px; 
+}
+
+#itemadicionado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: green;
+    height: 10px;
+}
+
 .main-favorites-carrosel-item-text{
     margin-left: 25px;
     text-align: left;
@@ -193,6 +213,7 @@ body {
     font-size: 18px;
     font-family:     Arial;
 }
+
 
 
 

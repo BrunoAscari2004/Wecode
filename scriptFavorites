@@ -1,0 +1,21 @@
+let imagem = document.getElementsByClassName('image-button')
+let counter = document.getElementById("counter")
+let itemadicionado = document.getElementById("itemadicionado")
+for (let i = 0; i < imagem.length; i++) {
+    (function (index) {
+        imagem[index].addEventListener("click", () => atualizar());
+
+        imagem[index].addEventListener("mouseover", () => imagem[index].style.cursor = "pointer");
+        imagem[index].addEventListener("mouseout", () => imagem[index].style.cursor = "default");
+    })(i);
+}
+
+function atualizar(){
+    numero = Number(counter.innerHTML)
+    numero +=1
+    counter.innerHTML=numero
+    itemadicionado.innerHTML = 'ITEM ADICIONADO';
+    setTimeout(function () {
+        itemadicionado.innerHTML = '';
+    }, 500);
+}
