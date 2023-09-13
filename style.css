@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    
+
 }
 /*main*/
 .main {
@@ -327,7 +327,7 @@ body {
     justify-content: center;
     background-color: white;
     color: black;
-    width: 100%;
+    min-width: 390px;
     border-bottom: 3px solid black;
     
 }
@@ -335,7 +335,6 @@ body {
 .menu{
     flex:1;
     margin-left: 25px;
-    max-width: 50px;
     
 }
 
@@ -343,7 +342,6 @@ body {
 .search{
     flex:1;
     margin-left: 15px;
-    max-width: 50px;
 }
 
 .company-name {
@@ -354,13 +352,11 @@ body {
 .account{
     flex:1;
     margin-right: 15px;
-    max-width: 50px;
 }
 
 .shopping{
     margin-right:35px;
     flex:1;
-    max-width: 50px;
 }
 
 /* </header>*/
