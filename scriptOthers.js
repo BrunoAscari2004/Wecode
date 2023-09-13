@@ -1,4 +1,4 @@
-const other = document.getElementsByClassName('main-others-image')
+let other = document.getElementsByClassName('main-others-image')
 
 for (let i = 0; i < other.length; i++) {
     other[i].addEventListener("click",()=>redirect(i))

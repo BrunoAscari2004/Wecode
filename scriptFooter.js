@@ -1,4 +1,4 @@
-const socialicon = document.getElementsByClassName('SocialIcon')
+let socialicon = document.getElementsByClassName('SocialIcon')
 
 for (let i = 0; i < socialicon.length; i++) {
     socialicon[i].addEventListener("click",()=>redirectsocial(i))

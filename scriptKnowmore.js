@@ -1,4 +1,5 @@
-const knowmore = document.getElementsByClassName('main-knowmore-carrosel-item')
+let knowmore = document.getElementsByClassName('main-knowmore-carrosel-item')
+
 
 for (let i = 0; i < knowmore.length; i++) {
     knowmore[i].addEventListener("click",()=>redirectknow(i))
