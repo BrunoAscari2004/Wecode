@@ -1,13 +1,13 @@
 const socialicon = document.getElementsByClassName('SocialIcon')
 
 for (let i = 0; i < socialicon.length; i++) {
-    socialicon[i].addEventListener("click",()=>redirect(i))
+    socialicon[i].addEventListener("click",()=>redirectsocial(i))
 
     socialicon[i].addEventListener("mouseover",()=> socialicon[i].style.cursor ="pointer");
     socialicon[i].addEventListener("mouseout",()=>socialicon[i].style.cursor = "default")
 }
 
-function redirect(id){
+function redirectsocial(id){
     if(id==0){
         window.open('https://www.instagram.com/wecode.digital/', '_blank');
     }
