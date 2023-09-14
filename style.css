@@ -7,74 +7,72 @@ body {
 .main {
     padding-top: 100px;
 }
-.main-coffe {
-    background-image: url(backgroundCafeGg.jpeg); 
-}
 
-.main-coffe-background{
-    height: 540px;
-}
-
-.main-coffe-coffe-image{
-    margin: auto;
-    display: block;
-    max-height: 790px;
-    max-width: 390px;
-    border-radius: 10px;
-    background-color: black;
-    
-}
-/*-------------------*/
 /*main-coffe-coffe*/
+
+.main-coffe{
+    height: 550px;
+    background-image: url(backgroundCafeGg.jpeg);
+    background-color: aqua;
+    min-width: 390px;
+}
+
+
+
+/*-------------------*/
+
 
 *{
     box-sizing: border-box;
+
 }
-.main-coffe-coffe{
+.main-coffe{
+    height: 610px;   
+    min-width: 390px;
+    background-color: #e8eaf0;
+
+
+}
+
+.main-coffe{
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    
-
-}
-/*main-coffe-carossel*/
-.main-coffe-carrosel{
-    overflow: auto;
-    
 }
 
-.main-coffe-carrosel img{
+
+
+.main-coffe-carrosel-container img{
     object-fit: cover;
-    max-height: 790.5px;
-    min-width: 300px;
-    background-color: black;
+    max-height: 620px;
+    max-width: 600px;
 
 }
-
-/*main-coffe-carrosel-container*/
 
 .main-coffe-carrosel-container{
+    overflow-x: auto;
+    overflow-y: hidden;
     display: flex;
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
+    gap: 120px;
+    width: 390px;
+    height: 620px;
+    
+    
 }
 
-.main-others-carrosel-item{
-    margin: 0;
-    text-align: center;
-    color: rgb(184, 181, 181);
-    font-size: 20px;
-    font-family:     sans-serif;
+.main-coffe-carrosel-item{
+    margin-right: 20px;
+    width:250px;
 }
 
-
-/*-------------------------------------------
 
 
 /*main other*/
 .main-others{
-    min-height: 200px;
+    min-height: 400px;
     min-width: 390px;
     background-color: #191819;
     border-top: 3px solid black;
@@ -96,6 +94,7 @@ body {
     overflow-x: auto;
     overflow-y: hidden;
     margin: 10px;
+    height: 320px;
 
 }
 
@@ -114,14 +113,23 @@ body {
     margin-right: 10px;
     height: 300px;
     margin-bottom: 10px;
-    
 }
 
 .main-others-carrosel-container{
     display: flex;
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
+    gap: 10px;
 }
+
+.main-others-carrosel-item{
+    margin: 0;
+    text-align: center;
+    color: rgb(184, 181, 181);
+    font-size: 20px;
+    font-family:     sans-serif;
+}
+
 
 
 /*main favortes*/
